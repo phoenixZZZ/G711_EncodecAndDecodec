@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIAS	g711codec.h	16;"	d
+G711a2PCM	g711.c	/^int G711a2PCM( char *InAudioData, char *OutAudioData, int DataLen, int reserve )$/;"	f
+G711u2PCM	g711.c	/^int G711u2PCM( char *InAudioData, char *OutAudioData, int DataLen, int reserve )$/;"	f
+NSEGS	g711codec.h	13;"	d
+PCM2G711a	g711.c	/^int PCM2G711a( char *InAudioData, char *OutAudioData, int DataLen, int reserve )$/;"	f
+PCM2G711u	g711.c	/^int PCM2G711u( char *InAudioData, char *OutAudioData, int DataLen, int reserve )$/;"	f
+QUANT_MASK	g711codec.h	12;"	d
+SEG_MASK	g711codec.h	15;"	d
+SEG_SHIFT	g711codec.h	14;"	d
+SIGN_BIT	g711codec.h	11;"	d
+__G711CODEC_H__	g711codec.h	6;"	d
+alaw2linear	g711codec.c	/^static int alaw2linear( unsigned char a_val )$/;"	f	file:
+g711a_decode	g711codec.c	/^int g711a_decode( short amp[], const unsigned char g711a_data[], int g711a_bytes )$/;"	f
+g711a_encode	g711codec.c	/^int g711a_encode(unsigned char g711_data[], const short amp[], int len)$/;"	f
+g711u_decode	g711codec.c	/^int g711u_decode(short amp[], const unsigned char g711u_data[], int g711u_bytes)$/;"	f
+g711u_encode	g711codec.c	/^int g711u_encode(unsigned char g711_data[], const short amp[], int len)$/;"	f
+linear2alaw	g711codec.c	/^unsigned char linear2alaw(int pcm_val)	\/* 2's complement (16-bit range) *\/$/;"	f
+linear2ulaw	g711codec.c	/^unsigned char linear2ulaw(int pcm_val)	\/* 2's complement (16-bit range) *\/$/;"	f
+main	decode.c	/^int main( int argc, char *argv[] )$/;"	f
+main	encode.c	/^int main(int argc, char *argv[])$/;"	f
+search	g711codec.c	/^static int search(int val, short	*table, int	size)$/;"	f	file:
+seg_end	g711codec.c	/^static short seg_end[8] = {0xFF, 0x1FF, 0x3FF, 0x7FF,$/;"	v	file:
+ulaw2linear	g711codec.c	/^static int ulaw2linear(unsigned char u_val)$/;"	f	file:
